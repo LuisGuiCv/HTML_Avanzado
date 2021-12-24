@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* como colorear un texto clases*/
+.title {
+    
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    padding: 20px;
+    
+
+    
+
+}
+#ID {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+
+/*como colorear un id*/
+
+/*esto hace que todos los h2 se vuelvan del color que se deseen*/
+
+
+/*colorear links*/
+
+/*#video1:link{
+    color: blue;
+}
+#video1:visited{
+    color: red;
+}*/
+
+h1{
+    /*font cambia de tamaño*/
+    font-size: 20px;
+    /*tipo de fuente*/
+    font-family: sans-serif;
+    font-weight: lighter;
+
+
+}
+h2{
+    font-weight: 5bold;
+    font-size: 14px;
+    font-family: sans-serif;
+
+
+}
+/*
+
+}*/
+body{
+    text-align: center;
+    background: gray;
+
+
+}
+
+.agrupar {
+   
+    width:960px;
+    margin: auto;
+    padding: 0px;
+
+}
+.menu{
+    color: white;
+    padding: 5px 15px;
+    text-align: left;
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+
+
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+
+    font: bold 14px verdana;
+    display: inline-block;
+    
+}
+.section{
+    
+   padding: 20px;
+   width: 80%;
+   
+   float: left;
+   margin: 20px;
+}
+.columna{
+    width: 30%;
+    float: left;
+    
+    margin: 20px 0px;
+
+}
+article{
+    
+    color: #bc2e1e;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    font-size: x-large;
+    padding: 20px;
+    margin-bottom: 15px;
+}
